@@ -1,0 +1,14 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+->      /orders         orders.OrderRouter
+
+->      /categories     categories.CategoryRouter
+
+->      /products       products.ProductRouter
+
+->      /promotions     promotions.PromotionsRouter
+
+->      /users          users.UserRouter
